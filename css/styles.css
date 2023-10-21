@@ -61,17 +61,52 @@ body {
 
 /* ============== HEADER STYLES ============== */
 
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
 .page-nav {
     display: flex;
-    align-items: center;
 }
 
 .menu {
     display: flex;
+    column-gap: 40px;
 }
+
+.menu-contacts {
+    display: flex;
+    column-gap: 40px;
+}
+
+/*.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 933px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+ .page-contacts { 
+    display: flex;
+    align-items: center;
+}
+
+.menu-contacts {
+    display: flex;
+}
+*/
 
 .logotype {
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
