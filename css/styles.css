@@ -43,6 +43,11 @@ img {
     overflow: hidden;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .list {
     list-style-type: none;
 }
@@ -156,11 +161,9 @@ body {
 .page-hero {
     width: 1440px;
     padding: 188px 0;
-    padding-bottom: 292px;
     margin: 0 auto;
     display: block;
     background: var(--NAVY-BLUE, #2E2F42);
-   
 }
 
 .name-hero-section {
@@ -199,16 +202,10 @@ body {
 /* ============== /HERO STYLES ============== */
 
 /* ============== FEATURE SECTION ============== */
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .page-our-team {
     width: 1440px;
     margin: 0 auto;
 }
-
 .menu-feature-item {
     width: calc((100% - 72px) / 4);
 }
