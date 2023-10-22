@@ -94,8 +94,6 @@ body {
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-contacts {
@@ -129,6 +127,8 @@ body {
 }
 
 .menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -202,19 +202,13 @@ body {
 /* ============== /HERO STYLES ============== */
 
 /* ============== FEATURE SECTION ============== */
-.page-our-team {
-    width: 1440px;
-    margin: 0 auto;
-}
+
 .menu-feature-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-72px) / 4);
 }
         
 .menu-feature {
     display: flex;
-    padding-left: 141px;
-    padding-top: 89px;
-    padding-bottom: 109px;
     gap: 24px;
 }
 
@@ -239,10 +233,13 @@ body {
 
 /* ============== OUR TEAM SECTION ============== */
 .page-our-team {
-    background: var(--CLOUD, #F4F4FD);
     padding-top: 49px;
     padding-bottom: 60px;
+    width: 1440px;
+    margin: 0 auto;
+    background: var(--CLOUD, #F4F4FD);
 }
+
 .menu-our-team {
     display: flex;
     gap: 24px;
